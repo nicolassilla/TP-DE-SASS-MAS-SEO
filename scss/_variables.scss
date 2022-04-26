@@ -1,0 +1,30 @@
+
+//variable
+$color-De-Fondo:#029987;
+$color-De-Letra:#fff;
+
+//mixin
+@mixin flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+@mixin estilos-Generales {
+    background-color: $color-De-Fondo;
+    color: $color-De-Letra;
+}
+
+//mapa
+$estilo-main:(
+    color-Standar:$color-De-Letra,
+    bg-Standar: $color-De-Fondo,
+    border-Standar: 1px solid black,
+
+);
+
+
+
