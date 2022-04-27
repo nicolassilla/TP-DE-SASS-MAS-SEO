@@ -29,6 +29,9 @@ body {
   body main section, body main footer div, body footer main div {
     display: flex;
     flex-direction: column; }
+    body main section img, body main footer div img, body footer main div img {
+      width: 100%;
+      height: 500px; }
     body main section div p, body main footer div div p, body footer main div div p {
       text-align: center; }
       body main section div p a, body main footer div div p a, body footer main div div p a {
